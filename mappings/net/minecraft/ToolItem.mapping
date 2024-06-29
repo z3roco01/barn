@@ -1,0 +1,8 @@
+CLASS net/minecraft/class_632 net/minecraft/ToolItem
+	FIELD field_2711 material Lnet/minecraft/class_428;
+	FIELD field_2712 effectiveBlock [Lnet/minecraft/class_17;
+	FIELD field_2713 miningSpeedMultiplier F
+	METHOD <init> (IILnet/minecraft/class_428;[Lnet/minecraft/class_17;)V
+		ARG 1 id
+		ARG 3 material
+		ARG 4 effectiveBlocks

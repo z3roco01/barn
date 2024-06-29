@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_500 net/minecraft/ArmorItem
+	FIELD field_2083 slot I
+	FIELD field_2087 MAX_DAMAGES [I
+	METHOD <init> (IIII)V
+		ARG 1 id
+		ARG 4 slot

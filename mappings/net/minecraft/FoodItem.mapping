@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_554 net/minecraft/FoodItem
+	FIELD field_2325 health I
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 health
