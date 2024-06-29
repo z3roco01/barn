@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_249 net/minecraft/HoeItem
+CLASS net/minecraft/class_352 net/minecraft/item/SwordItem
 	METHOD <init> (ILnet/minecraft/class_428;)V
 		ARG 1 id
 		ARG 2 material

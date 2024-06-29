@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_632 net/minecraft/ToolItem
+CLASS net/minecraft/class_632 net/minecraft/item/ToolItem
 	FIELD field_2711 material Lnet/minecraft/class_428;
 	FIELD field_2712 effectiveBlock [Lnet/minecraft/class_17;
 	FIELD field_2713 miningSpeedMultiplier F

@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_391 net/minecraft/ServerPropertiesFile
+CLASS net/minecraft/class_391 net/minecraft/server/ServerPropertiesFile
 	FIELD field_1519 LOGGER Ljava/util/logging/Logger;
 	FIELD field_1520 serverProperties Ljava/util/Properties;
 	FIELD field_1521 propertiesFile Ljava/io/File;

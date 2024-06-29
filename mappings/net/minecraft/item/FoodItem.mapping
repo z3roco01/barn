@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_554 net/minecraft/FoodItem
+CLASS net/minecraft/class_554 net/minecraft/item/FoodItem
 	FIELD field_2325 health I
 	METHOD <init> (IIZ)V
 		ARG 1 id

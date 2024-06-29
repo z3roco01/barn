@@ -1,4 +1,4 @@
-CLASS net/minecraft/class_124 net/minecraft/Item
+CLASS net/minecraft/class_124 net/minecraft/item/Item
 	FIELD field_376 DIAMOND_HATCHET Lnet/minecraft/class_124;
 	FIELD field_377 STICK Lnet/minecraft/class_124;
 	FIELD field_378 BOWL Lnet/minecraft/class_124;
