@@ -1,0 +1,20 @@
+CLASS net/minecraft/class_391 net/minecraft/ServerPropertiesFile
+	FIELD field_1519 LOGGER Ljava/util/logging/Logger;
+	FIELD field_1520 serverProperties Ljava/util/Properties;
+	FIELD field_1521 propertiesFile Ljava/io/File;
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 propertiesFile
+	METHOD method_1245 newPropertiesFile ()V
+	METHOD method_1246 setInt (Ljava/lang/String;I)I
+		ARG 1 key
+		ARG 2 value
+	METHOD method_1247 setString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 key
+		ARG 2 value
+	METHOD method_1248 setBoolean (Ljava/lang/String;Z)Z
+		ARG 1 key
+		ARG 2 value
+	METHOD method_1249 saveFile ()V
+	METHOD method_1250 setBooleanNoRet (Ljava/lang/String;Z)V
+		ARG 1 key
+		ARG 2 value
