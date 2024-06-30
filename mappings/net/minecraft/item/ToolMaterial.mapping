@@ -1,6 +1,8 @@
 CLASS net/minecraft/class_428 net/minecraft/item/ToolMaterial
 	FIELD field_1694 maxDamage I
+	FIELD field_1696 attackDamage I
 	METHOD <init> (Ljava/lang/String;IIIFI)V
 		ARG 4 maxDamage
 	METHOD method_1417 maxDamage ()I
 	METHOD method_1418 miningSpeedMultiplier ()F
+	METHOD method_1419 getAttackDamage ()I

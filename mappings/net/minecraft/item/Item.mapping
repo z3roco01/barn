@@ -86,6 +86,7 @@ CLASS net/minecraft/class_124 net/minecraft/item/Item
 	FIELD field_460 RECORD_CAT Lnet/minecraft/class_124;
 	FIELD field_461 id I
 	FIELD field_462 maxCount I
+	FIELD field_466 craftingResult Lnet/minecraft/class_124;
 	FIELD field_467 translationKey Ljava/lang/String;
 	FIELD field_468 ITEMS [Lnet/minecraft/class_124;
 	FIELD field_469 IRON_SHOVEL Lnet/minecraft/class_124;
@@ -119,9 +120,12 @@ CLASS net/minecraft/class_124 net/minecraft/item/Item
 		ARG 3 x
 		ARG 4 y
 		ARG 5 z
+		ARG 6 itemHolder
 	METHOD method_438 getMiningSpeedMultiplier (Lnet/minecraft/class_31;Lnet/minecraft/class_17;)F
 		ARG 1 stack
 		ARG 2 block
+	METHOD method_439 (Lnet/minecraft/class_31;)I
+		ARG 1 itemStack
 	METHOD method_442 getTranslationKey (Lnet/minecraft/class_31;)Ljava/lang/String;
 		ARG 1 stack
 	METHOD method_443 getTranslationKey ()Ljava/lang/String;
@@ -134,12 +138,17 @@ CLASS net/minecraft/class_124 net/minecraft/item/Item
 		ARG 6 z
 	METHOD method_446 postHit (Lnet/minecraft/class_31;Lnet/minecraft/class_127;Lnet/minecraft/class_127;)Z
 		ARG 1 stack
+		ARG 3 itemHolder
+	METHOD method_447 getAttackDamage (Lnet/minecraft/class_57;)I
+		ARG 1 entity
 	METHOD method_450 isSuitableFor (Lnet/minecraft/class_17;)Z
 		ARG 1 block
 	METHOD method_451 use (Lnet/minecraft/class_31;Lnet/minecraft/class_18;Lnet/minecraft/class_54;)Lnet/minecraft/class_31;
 		ARG 1 stack
 		ARG 2 world
 		ARG 3 user
+	METHOD method_453 setCraftingResult (Lnet/minecraft/class_124;)Lnet/minecraft/class_124;
+		ARG 1 craftingResult
 	METHOD method_454 inventoryTick (Lnet/minecraft/class_31;Lnet/minecraft/class_18;Lnet/minecraft/class_57;IZ)V
 		ARG 1 stack
 		ARG 2 world
@@ -152,6 +161,8 @@ CLASS net/minecraft/class_124 net/minecraft/item/Item
 	METHOD method_456 setTranslationKey (Ljava/lang/String;)Lnet/minecraft/class_124;
 		ARG 1 translationKey
 	METHOD method_459 getMaxCount ()I
+	METHOD method_460 setMaxCount (I)Lnet/minecraft/class_124;
+		ARG 1 maxCount
 	METHOD method_461 onCraft (Lnet/minecraft/class_31;Lnet/minecraft/class_18;Lnet/minecraft/class_54;)V
 		ARG 1 stack
 		ARG 2 world
@@ -159,3 +170,5 @@ CLASS net/minecraft/class_124 net/minecraft/item/Item
 	METHOD method_463 setMaxDamage (I)Lnet/minecraft/class_124;
 		ARG 1 maxDamage
 	METHOD method_464 getMaxDamage ()I
+	METHOD method_467 getCraftingResult ()Lnet/minecraft/class_124;
+	METHOD method_468 hasCraftingResult ()Z
